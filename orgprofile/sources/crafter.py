@@ -2,7 +2,7 @@ import requests
 import logging
 STATREG_URLPAT = 'https://api.crftr.net/rawapi/v2/gks/statreg?apikey=%s&where=%s'
 BALANCES_URLPAT = 'https://api.crftr.net/rawapi/v2/gks/orgbalances?apikey=%s&where=%s'
-RMSP_URLPAT = 'http://dataapi.h5.crftr.net/rawapi/v2/rmsp/rmsp?apikey=%s&where=%s'
+RMSP_URLPAT = 'http://api.crftr.net/rawapi/v3/rmsp/rmsp?apikey=%s&where=%s'
 CLEAR_SUPP = 'http://openapi.clearspending.ru/restapi/v3/suppliers/search/?inn=%s'
 CLEAR_CUST = 'http://openapi.clearspending.ru/restapi/v3/customers/search/?inn=%s'
 
